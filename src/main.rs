@@ -65,13 +65,13 @@ impl FromStr for YearMonth {
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         let re = Regex::new(r"(\d{4})-(\d{2})")?;
-        let cap = re
-            .captures(s)
-            .ok_or_else(|| anyhow!("YYYY-MM形式で入力してください: {}", s))?;
+        let cap = re.captures(s).ok_or_else(|| {
+            anyhow!("Invalid year/month format. The correct form is YYYY-MM: {s}")
+        })?;
         Ok(YearMonth {
             year: cap[1].parse()?,
             month: Month::from_u64(cap[2].parse::<u64>()?)
-                .ok_or_else(|| anyhow!("月は1-12の間の数字にしてください: {}", &cap[2]))?,
+                .ok_or_else(|| anyhow!("Invalid month: {}", &cap[2]))?,
         })
     }
 }
@@ -80,10 +80,10 @@ impl FromStr for YearMonth {
 async fn main() -> anyhow::Result<()> {
     let opt = Opt::from_args();
     let mut login_address = String::new();
-    print!("ログインメールアドレス: ");
+    print!("Login E-mail address: ");
     io::stdout().flush()?;
     io::stdin().read_line(&mut login_address)?;
-    let login_password = rpassword::prompt_password("ログインパスワード: ")?;
+    let login_password = rpassword::prompt_password("Login password: ")?;
     let client = Arc::new(reqwest::Client::builder().cookie_store(true).build()?);
     let form = reqwest::multipart::Form::new()
         .text("loginId", login_address)
