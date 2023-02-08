@@ -6,7 +6,7 @@
 
 ## Windows
 
-Windowsの場合、Windowsセキュリティがixsie-exporterをトロイの木馬として認識してしまうため、これを解除する必要があります。下のステップ2からステップ7までが解除操作に当たります。
+Windowsの場合、Windowsセキュリティがixsie-exporterをトロイの木馬として認識してしまうため、これを解除する必要があります。下のステップ2からステップ8までが解除操作に当たります。
 
 1. [Windows用実行ファイル（zipファイル）](https://github.com/maoe/ixsie-exporter/releases/download/v0.1.0/ixsie-exporter-x86_64-pc-windows-msvc.zip)をダウンロード
 2. Windowsセキュリティの警告のポップアップをクリック。もし表示されなければステップ9へ。
