@@ -33,11 +33,11 @@ Windowsの場合、Windowsセキュリティがixsie-exporterをトロイの木�
   ![screenshot 11](images/screenshot-11.png)
 13. コマンドプロンプトに「cd Desktop」と入力してエンターを押す
   ![screenshot 12](images/screenshot-12.png)
-14. 先ほど展開した「ixsie-exporter」をコマンドプロンプトにドラッグアンドドロップして、エンターを押す。
+14. 先ほど展開した「ixsie-exporter」をコマンドプロンプトにドラッグアンドドロップして、エンターを押すと「Login E-mail address:」と表示される。
   ![screenshot 13](images/screenshot-13.png)
-15. 「Login E-mail address:」と表示される。イクシエのログインメールアドレスを入力してエンターを押す。
+15. イクシエのログインメールアドレスを入力してエンターを押すと「Login password:」と表示される。
   ![screenshot 14](images/screenshot-14.png)
-16. 「Login password:」と表示される。イクシエのログインパスワードを入力してエンターを押す。ログインに成功するとダウンロードが始まる。コマンドプロンプトにはダウンロードが終わった順に「年-月」が表示される。
+16. イクシエのログインパスワードを入力してエンターを押す。ログインに成功するとダウンロードが始まる。コマンドプロンプトにはダウンロードが終わった順に「年-月」が表示される。
   ![screenshot 15](images/screenshot-15.png)
 17. すべて終わったら「Windowsセキュリティ」を開き「ウイルスの脅威と防止」をクリックして、「許可された脅威」をクリック。先ほど許可した「Trojan:Script/Wacatac.H!ml」を選択して「許可しない」を押す。
 
