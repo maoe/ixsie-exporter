@@ -12,7 +12,7 @@
 
 ### Windows
 
-1. [インストーラ](https://github.com/maoe/ixsie-exporter/releases/download/untagged-666b666aafefabf46765/ixsie-exporter_0.0.0_x64_en-US.msi)をダウンロードする。
+1. [インストーラ](https://github.com/maoe/ixsie-exporter/releases/download/v0.0.0/ixsie-exporter_0.0.0_x64_en-US.msi)をダウンロードする。
 2. インストーラを実行する。「WindowsによってPCが保護されました」と出た場合は「詳細情報」をクリックする。
     ![](img/windows-01.png)
 3. 「実行」をクリックする。
