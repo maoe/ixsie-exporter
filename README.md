@@ -19,7 +19,7 @@
     ![](img/windows-02.png)
 4. インストーラの「Next」をクリックする。
     ![](img/windows-03.png)
-5. Destination Folderも「Next」をクリックする。
+5. Destination Folderも変更が必要なければ「Next」をクリックする。
     ![](img/windows-04.png)
 6. Ready to install ixsie-exporterで「Install」をクリックする。
     ![](img/windows-05.png)
@@ -27,7 +27,7 @@
     ![](img/windows-06.png)
 8. インストール完了時に「Launch ixsie-exporter」にチェックを入れて「Finish」をクリックする。
     ![](img/windows-07.png)
-9. ixsie-exporterが起動する。ログイン情報と入力し、期間・保存先を必要に応じて変更して、「ダウンロードする」をクリックする。
+9. ixsie-exporterが起動する。ログイン情報を入力し、期間・保存先を必要に応じて変更して、「ダウンロードする」をクリックする。
 10. プログレスバーが右端まで行けば完了。
 
 ### macOS
