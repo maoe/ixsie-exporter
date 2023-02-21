@@ -9,15 +9,15 @@ license = "MIT OR Apache-2.0"
 chrono = { version = "0.4.23", features = ["serde"] }
 futures = "0.3.26"
 gloo-utils = "0.1.6"
-js-sys = "0.3.59"
+js-sys = "0.3.61"
 num-traits = "0.2.15"
-serde = { version = "1.0.140", features = ["derive"] }
-serde-wasm-bindgen = "0.4.3"
+serde = { version = "1.0.152", features = ["derive"] }
+serde-wasm-bindgen = "0.4.5"
 shared = { path = "shared" }
 tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys", rev = "904450cffe9687fdd4c5163077550edffa650a68", features = ["event"] }
-wasm-bindgen = { version = "0.2.82", features = ["serde-serialize"] }
-wasm-bindgen-futures = "0.4.32"
-web-sys = "0.3.59"
+wasm-bindgen = { version = "0.2.84", features = ["serde-serialize"] }
+wasm-bindgen-futures = "0.4.34"
+web-sys = "0.3.61"
 yew = { version = "0.20.0", features = ["csr"] }
 
 [workspace]
