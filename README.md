@@ -28,8 +28,22 @@
 8. インストール完了時に「Launch ixsie-exporter」にチェックを入れて「Finish」をクリックする。
     ![](img/windows-07.png)
 9. ixsie-exporterが起動する。ログイン情報を入力し、期間・保存先を必要に応じて変更して、「ダウンロードする」をクリックする。
+    ![](img/windows-08.png)
 10. プログレスバーが右端まで行けば完了。
 
 ### macOS
 
-### Linux
+1. [アプリケーション](https://github.com/maoe/ixsie-exporter/releases/download/v0.0.0/ixsie-exporter.app.tar.gz)をダウンロードする。
+2. ダウンロードした`ixsie-exporter.app.tar`をクリックして展開する。
+3. 展開した`ixsie-exporter.app`をクリックして起動する。
+4. 「"ixsie-exporter.app"は、開発元を検証できないため開けません。」の警告はキャンセルする。
+    ![](img/macos-01.png)
+5. メニューから「システム設定」を選択する。
+    ![](img/macos-02.png)
+6. 「プライバシーとセキュリティ」から「このまま開く」をクリックする。
+    ![](img/macos-03.png)
+7. 「"ixsie-exporter.app"の開発元を検証できません。開いてもよろしいですか？」に「開く」と答える。
+    ![](img/macos-04.png)
+8. 9. ixsie-exporterが起動する。ログイン情報を入力し、期間・保存先を必要に応じて変更して、「ダウンロードする」をクリックする。
+    ![](img/macos-05.png)
+10. プログレスバーが右端まで行けば完了。
